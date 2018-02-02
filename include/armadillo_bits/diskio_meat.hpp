@@ -2034,7 +2034,7 @@ diskio::load_csv_ascii(Mat< std::complex<T> >& x, std::istream& f, std::string&)
       else
         {
         T val_tmp = T(0);
-        diskio::convert_naninf(val_tmp, str_real);
+        diskio::convert_naninf(val_tmp, str_imag);
         val_imag_2 = val_tmp;
         }
       
