@@ -32,7 +32,7 @@ set(ARMA_USE_WRAPPER true)
 
 # the settings below will be automatically configured by the rest of this script
 
-set(ARMA_USE_LAPACK           false)
+set(ARMA_USE_LAPACK           true)
 set(ARMA_USE_BLAS             false)
 set(ARMA_USE_ATLAS            false)
 set(ARMA_USE_HDF5_ALT         false)
